@@ -1,0 +1,8 @@
+section.result
+  .tiny
+    .pull-right.muted Zillow ID ##{result['zpid']}
+    => link_to "#{icon :'location-arrow'} Map This!".html_safe, result['links']['mapthishome']
+    span.muted —
+    => link_to "#{icon :flask} Comparable to...".html_safe, result['links']['comparables']
+  h3= link_to result['address']['street'], result['links']['homedetails']
+  = render 'zestimate', zestimate: result['zestimate']

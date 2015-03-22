@@ -1,0 +1,13 @@
+.col2.muted
+  h4.thin Zestimate®
+.col3
+  h3 $#{number_to_human zestimate['amount']}
+.col5
+  h4.thin[class="#{zestimate['valueChange'].to_i > 0 ? 'green' : 'red'}"]
+    - if zestimate['valueChange'].to_i > 0
+      = icon :'angle-up'
+    - else
+      = icon :'angle-down'
+    =< number_to_currency zestimate['valueChange'].to_i.abs
+.clearfix
+.tiny.muted Last updated #{time_ago_in_words(Date.strptime(zestimate['last_updated'], "%m/%d/%Y")) rescue zestimate['last_updated']} ago

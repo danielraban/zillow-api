@@ -1,0 +1,59 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_self
+ */
+
+@import "bourbon";
+@import "base/base";
+@import "neat";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+section { @include outer-container; }
+
+.col1  { @include span-columns(1);  }
+.col2  { @include span-columns(2);  }
+.col3  { @include span-columns(3);  }
+.col4  { @include span-columns(4);  }
+.col5  { @include span-columns(5);  }
+.col6  { @include span-columns(6);  }
+.col7  { @include span-columns(7);  }
+.col8  { @include span-columns(8);  }
+.col9  { @include span-columns(9);  }
+.col10 { @include span-columns(10); }
+.col11 { @include span-columns(11); }
+.col12 { @include span-columns(12); }
+
+.center     { text-align: center; }
+.muted      { color: #aaa; }
+.tiny       { font-size: 0.7em; }
+.small      { font-size: 0.85em; }
+.pull-right { float: right; }
+.thin       { font-weight: 300; }
+.clearfix   { @include clearfix; }
+.green      { color: #27ae60; }
+.red        { color: #c0392b; }
+
+#search-results {
+  margin-top: 1em;
+  section.result {
+    margin-bottom: 1em;
+    border-radius: .5em;
+    padding: 0.5em;
+    border: 1px solid #eee;
+  }
+}
+
+section#header, section#search-form {
+  margin-bottom: 2em;
+}

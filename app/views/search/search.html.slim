@@ -1,0 +1,13 @@
+= render 'form'
+
+- if defined?(@results)
+  section.muted.center Zillow found #{pluralize @results.count, 'result'} in about #{@duration}s
+  br
+  #search-results
+    - @results.each do |result|
+      = render 'search_result', result: result
+
+- elsif defined?(@exception)
+  section.center
+    h2 D'oh!
+    h2.muted.thin= @exception.message

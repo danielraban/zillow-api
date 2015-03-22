@@ -1,0 +1,473 @@
+
+
+Started GET "/" for ::1 at 2015-02-17 16:15:33 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (6.1ms)
+  Rendered search/search.html.slim within layouts/application (20.4ms)
+Completed 200 OK in 1957ms (Views: 1947.7ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 16:15:35 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (0.6ms)
+  Rendered search/search.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 34.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:15:35 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:15:49 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LsZ+hunWKLRiJVKgX/TmQSoxJqsA0sTtNML0gcm29siNku9a0SrrVwJrCBMy5YlvG3xgM/PEmYHYE5LAiskZDg==", "address"=>"3664 high green drive ", "citystatezip"=>"marietta, ga", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.8ms)
+  Rendered search/search.html.slim within layouts/application (1.6ms)
+Completed 200 OK in 339ms (Views: 59.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:15:50 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:15:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:15:50 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:19:30 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LsZ+hunWKLRiJVKgX/TmQSoxJqsA0sTtNML0gcm29siNku9a0SrrVwJrCBMy5YlvG3xgM/PEmYHYE5LAiskZDg==", "address"=>"3664 high green drive ", "citystatezip"=>"marietta, ga", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.9ms)
+  Rendered search/search.html.slim within layouts/application (1.9ms)
+Completed 200 OK in 199ms (Views: 29.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:19:30 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:19:32 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LsZ+hunWKLRiJVKgX/TmQSoxJqsA0sTtNML0gcm29siNku9a0SrrVwJrCBMy5YlvG3xgM/PEmYHYE5LAiskZDg==", "address"=>"3664 high green drive ", "citystatezip"=>"marietta, ga", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.8ms)
+  Rendered search/search.html.slim within layouts/application (1.7ms)
+Completed 200 OK in 186ms (Views: 34.9ms)
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:19:32 -0500
+
+
+Started GET "/" for ::1 at 2015-02-17 16:19:34 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (0.4ms)
+  Rendered search/search.html.slim within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:19:34 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:19:38 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6u4Af/vZr/7hxldQYMnycfV69PV0NekySMypPbxwpEJJupGjwyVsHYGIDeMN2J1fxDeybYcjtF6kHc98/w9LhA==", "address"=>"3664 High Green Drive", "citystatezip"=>"Marietta, GA", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.9ms)
+  Rendered search/search.html.slim within layouts/application (1.7ms)
+Completed 200 OK in 198ms (Views: 29.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:19:38 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:22:21 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6u4Af/vZr/7hxldQYMnycfV69PV0NekySMypPbxwpEJJupGjwyVsHYGIDeMN2J1fxDeybYcjtF6kHc98/w9LhA==", "address"=>"3664 High Green Drive", "citystatezip"=>"Marietta, GA", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.7ms)
+  Rendered search/search.html.slim within layouts/application (1.4ms)
+Completed 200 OK in 201ms (Views: 27.4ms)
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:22:21 -0500
+
+
+Started GET "/" for ::1 at 2015-02-17 16:22:47 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (4.1ms)
+  Rendered search/search.html.slim within layouts/application (15.8ms)
+Completed 200 OK in 108ms (Views: 99.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:22:47 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:22:51 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i51i6G8iafnuKPaoPq6X0SloV+unrBiT9ZCu83NFvvwoyfM0V96qGo5mrBtTv/j/GCURc1S6Rf8ZQciyMDpROg==", "address"=>"3664 High Green Drive", "citystatezip"=>"Marietta, GA", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.7ms)
+  Rendered search/_zestimate.html.slim (19.3ms)
+  Rendered search/_search_result.html.slim (26.0ms)
+  Rendered search/search.html.slim within layouts/application (28.3ms)
+Completed 200 OK in 245ms (Views: 58.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2015-02-17 16:22:51 -0500
+
+
+Started GET "/" for ::1 at 2015-02-17 16:23:03 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (0.6ms)
+  Rendered search/search.html.slim within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 26.7ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:23:03 -0500
+
+
+Started GET "/" for ::1 at 2015-02-17 16:23:41 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (0.4ms)
+  Rendered search/search.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:23:41 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:23:57 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uwunOdXVhR8Gku0MoPaK1j5vlstjuh6UMV4GS49hzQcYXzbl7SlG/Gbct7/N5+X4DyLQU5CsQ/jdj2AKzB4iwQ==", "address"=>"502 lenox way", "citystatezip"=>"atlanta ga", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.8ms)
+  Rendered search/search.html.slim within layouts/application (1.8ms)
+Completed 200 OK in 242ms (Views: 33.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:23:57 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:24:06 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FQ27yItcA3bfIkPK3qqeHNjyE7XOMPmMU2Z6+noqznK2WSoUs6DAlb9sGXmzu/Ey6b9VLT0mpOC/txy7OVUhtA==", "address"=>"3664 High Green Drive", "citystatezip"=>"Marietta, GA", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.8ms)
+  Rendered search/_zestimate.html.slim (1.0ms)
+  Rendered search/_search_result.html.slim (1.9ms)
+  Rendered search/search.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 289ms (Views: 73.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2015-02-17 16:24:06 -0500
+
+
+Started GET "/" for ::1 at 2015-02-17 16:26:53 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (0.7ms)
+  Rendered search/search.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 25.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:26:53 -0500
+
+
+Started POST "/search" for ::1 at 2015-02-17 16:26:58 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1/Cd6X7UGnYQ/OqV6ZCVv8EPW9coJAcDTGAjKHy2cr10pAw1RijZlXCysCaEgfqR8EIdT9syWm+gsUVpP8mdew==", "address"=>"3664 High Green Drive", "citystatezip"=>"Marietta, GA", "commit"=>"Search"}
+  Rendered search/_form.html.slim (1.0ms)
+  Rendered search/_zestimate.html.slim (1.4ms)
+  Rendered search/_search_result.html.slim (2.6ms)
+  Rendered search/search.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 248ms (Views: 40.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2015-02-17 16:26:58 -0500
+
+
+Started GET "/" for ::1 at 2015-03-02 12:05:16 -0500
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (4.9ms)
+  Rendered search/search.html.slim within layouts/application (20.0ms)
+Completed 200 OK in 142ms (Views: 133.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-03-02 12:05:16 -0500
+
+
+Started POST "/search" for ::1 at 2015-03-02 12:05:27 -0500
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PQPCDBN5Rm8A+Dm2LSOfe3zb9MgifxwFUrM0USoiTx6+iSAq/u7Nbtiw0HtHlcwtV5LN9405AFhnTOIB4KxUXQ==", "address"=>"3664 High Green Drive", "citystatezip"=>"30068", "commit"=>"Search"}
+  Rendered search/_form.html.slim (0.8ms)
+  Rendered search/_zestimate.html.slim (18.9ms)
+  Rendered search/_search_result.html.slim (24.5ms)
+  Rendered search/search.html.slim within layouts/application (27.5ms)
+Completed 200 OK in 2462ms (Views: 54.9ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2015-03-02 12:05:30 -0500
+
+
+Started GET "/" for ::1 at 2015-03-22 00:27:01 -0400
+Processing by SearchController#search as HTML
+  Rendered search/_form.html.slim (5.0ms)
+  Rendered search/search.html.slim within layouts/application (19.7ms)
+Completed 200 OK in 133ms (Views: 124.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started GET "/assets/search.js?body=1" for ::1 at 2015-03-22 00:27:01 -0400
+
+
+Started POST "/search" for ::1 at 2015-03-22 00:27:06 -0400
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8tNIebZF9kBgbcbfQvh+h0dAsWI6VN8QeBKyki2tUNUTI9uxJJOpxtk5OXZwbzAwDn8MrWSayO0Pc+agZXy0g==", "address"=>"3664 High Green Drive", "citystatezip"=>"30068", "commit"=>"Search"}
+  Rendered search/_form.html.slim (1.1ms)
+  Rendered search/_zestimate.html.slim (16.2ms)
+  Rendered search/_search_result.html.slim (21.0ms)
+  Rendered search/search.html.slim within layouts/application (24.3ms)
+Completed 200 OK in 769ms (Views: 89.3ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2015-03-22 00:27:07 -0400
